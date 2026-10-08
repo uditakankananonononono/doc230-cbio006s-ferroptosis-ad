@@ -1,0 +1,178 @@
+{
+ "d1": {
+  "n": 161,
+  "n_ad": 87,
+  "n_control": 74,
+  "by_region": {
+   "EC": [
+    13,
+    10
+   ],
+   "HIP": [
+    13,
+    10
+   ],
+   "MTG": [
+    12,
+    16
+   ],
+   "PC": [
+    13,
+    9
+   ],
+   "SFG": [
+    11,
+    23
+   ],
+   "VCX": [
+    12,
+    19
+   ]
+  },
+  "n_genes_expressed": 12513,
+  "ferroptosis_genes_found": 32,
+  "ferroptosis_total": 42,
+  "age_mean_control": 79.5,
+  "age_mean_ad": 79.8,
+  "male_frac_control": 0.72,
+  "male_frac_ad": 0.57
+ },
+ "d2_ferroptosis": {
+  "n": 32,
+  "mean_abs_t": 3.644,
+  "p_abs": 0.014,
+  "mean_t": -2.131,
+  "p_signed_two_sided": 0.039
+ },
+ "d2_gate_p_abs_lt_0.05": true,
+ "d3_per_gene_t": {
+  "GPX4": -7.09,
+  "SLC7A11": 2.64,
+  "FTH1": -3.99,
+  "FTL": -0.32,
+  "TFRC": -0.48,
+  "ACSL4": 1.48,
+  "NCOA4": -5.55,
+  "HMOX1": 1.85,
+  "SLC40A1": 4.51
+ },
+ "d3_top_abs_t_ferroptosis": {
+  "GSS": -8.72,
+  "GPX4": -7.09,
+  "VDAC2": -7.07,
+  "MAP1LC3B": -6.65,
+  "ATG5": -6.63,
+  "VDAC3": -6.38,
+  "ACSL3": -5.79,
+  "NCOA4": -5.55
+ },
+ "d4_per_region": {
+  "EC": {
+   "n": 32,
+   "mean_abs_t": 2.195,
+   "p_abs": 0.067,
+   "mean_t": -0.405,
+   "p_signed_two_sided": 0.876
+  },
+  "HIP": {
+   "n": 32,
+   "mean_abs_t": 2.02,
+   "p_abs": 0.125,
+   "mean_t": -0.985,
+   "p_signed_two_sided": 0.006
+  },
+  "MTG": {
+   "n": 32,
+   "mean_abs_t": 2.273,
+   "p_abs": 0.15,
+   "mean_t": -0.998,
+   "p_signed_two_sided": 0.608
+  },
+  "PC": {
+   "n": 32,
+   "mean_abs_t": 2.276,
+   "p_abs": 0.08,
+   "mean_t": -1.386,
+   "p_signed_two_sided": 0.0
+  },
+  "SFG": {
+   "n": 32,
+   "mean_abs_t": 1.673,
+   "p_abs": 0.824,
+   "mean_t": -1.46,
+   "p_signed_two_sided": 0.594
+  },
+  "VCX": {
+   "n": 32,
+   "mean_abs_t": 1.519,
+   "p_abs": 0.178,
+   "mean_t": -0.716,
+   "p_signed_two_sided": 0.004
+  }
+ },
+ "d4_regions_with_p_lt_0.05": 0,
+ "d4_gate_ge_3_of_6": false,
+ "d5": {
+  "auroc": 0.8423,
+  "random_mean": 0.85,
+  "random_p95": 0.9125,
+  "frac_random_ge": 0.63
+ },
+ "d5_gate": false,
+ "d6": {
+  "age_vs_ad_spearman": [
+   0.014,
+   0.859
+  ],
+  "sex_vs_ad_chi2_p": 0.0893,
+  "unadjusted": {
+   "n": 32,
+   "mean_abs_t": 3.658,
+   "p_abs": 0.009,
+   "mean_t": -2.099,
+   "p_signed_two_sided": 0.038
+  },
+  "adjusted": {
+   "n": 32,
+   "mean_abs_t": 3.644,
+   "p_abs": 0.014,
+   "mean_t": -2.131,
+   "p_signed_two_sided": 0.039
+  }
+ },
+ "d7_shuffle_auroc_mean_sd": [
+  0.4744,
+  0.0614
+ ],
+ "d8": {
+  "oxphos_positive_control": {
+   "n": 108,
+   "mean_abs_t": 5.251,
+   "p_abs": 0.0,
+   "mean_t": -4.368,
+   "p_signed_two_sided": 0.0
+  },
+  "apoptosis": {
+   "n": 103,
+   "mean_abs_t": 2.842,
+   "p_abs": 0.358,
+   "mean_t": -0.392,
+   "p_signed_two_sided": 0.149
+  }
+ },
+ "d8_positive_control_pass": true,
+ "d9_maxprobe": {
+  "n": 32,
+  "mean_abs_t": 3.505,
+  "p_abs": 0.172,
+  "mean_t": -1.452,
+  "p_signed_two_sided": 0.459
+ },
+ "d10_leave_one_gene_out_auroc_drop_top5": {
+  "GSS": 0.0225,
+  "SAT1": 0.0177,
+  "ATG5": 0.0135,
+  "FTH1": 0.0113,
+  "SLC3A2": 0.0113
+ }
+}
