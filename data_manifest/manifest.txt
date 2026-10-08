@@ -1,0 +1,3 @@
+4cf3d2e7948f712fe9a145fcc2e8f34767eb2715284011148b3204c732e68e36  /tmp/ad/gse5281.gz
+cdde07ea0cef29fe080e0633a5509d29d5a1f4164910a68b646bf6e9b2b10a71  /tmp/ad/gpl570_map.csv
+GSE5281 series matrix (GEO FTP); GPL570 annotation via acc.cgi; KEGG gene sets hsa04216 ferroptosis, hsa04210 apoptosis, hsa00190 oxidative phosphorylation via rest.kegg.jp (fetched 2026-10-09)
